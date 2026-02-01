@@ -1,0 +1,196 @@
+baseURL: "https://yousuf-hossan.netlify.app"
+languageCode: "en-us"
+title: "Md Yousuf Hossan | Software Engineer"
+theme: hugo-profile
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# - identifier: blog
+#   name: Blog
+#   title: Blog posts
+#   url: /blogs
+#   weight: 1
+
+
+params:
+  title: "Md Yousuf Hossan"
+  description: "Junior Software Engineer | MSc in Computer Science Applicant"
+  #favicon: "/fav.png"
+
+  navbar:
+    brandName: "Md Yousuf Hossan"
+    stickyNavBar:
+      enable: true
+
+  hero:
+    enable: true
+    intro: "Hi, I’m"
+    title: "Md Yousuf Hossan"
+    subtitle: "Junior Software Engineer"
+    content: "I am a Junior Software Engineer working with Java, Spring Boot, REST APIs, and PostgreSQL. Alongside my professional work, I am preparing for an MSc in Computer Science, with a strong interest in backend development and software engineering."
+    image: /images/me.png
+
+    button:
+      enable: true
+      name: "Download CV"
+      url: "files/Md_Yousuf_Hossan_CV.pdf"
+      download: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/mdyousufh
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/mdyousufh/
+
+  about:
+    enable: true
+    title: "About Me"
+    image: /images/me.png
+
+    content: |-
+      I am a Junior Software Engineer currently working at OROCUBE TECH in Dhaka, Bangladesh. I have completed a Bachelor’s degree in Computer Science and Engineering and gained practical experience in backend development using Java and Spring Boot through academic projects and professional work.
+
+      Alongside my professional experience, I am preparing to pursue a Master of Science (MSc) in Computer Science to further develop my understanding of software engineering, data-centric systems, and modern computing technologies. I am particularly interested in building reliable backend systems and continuously improving my technical skills through learning and hands-on practice.
+    skills:
+      enable: true
+      items:
+        - Java
+        - Spring Boot
+        - Vaadin
+        - Apache velocity
+        - Jasper Report
+        - REST APIs
+        - PostgreSQL
+        - Git & GitHub
+        - Linux
+
+  experience:
+    enable: true
+    items:
+      - company: "OROCUBE TECH"
+        companyUrl: "https://orocube.net"
+        jobs:
+          - name: "Junior Software Engineer"
+            date: "February 2023 – Present"
+            content: |-
+              - Developed and maintained backend applications using Java and Spring Boot.
+              - Designed and implemented RESTful APIs for web applications.
+              - Worked with PostgreSQL databases including schema design and query optimization.
+              - Collaborated with cross-functional teams following Agile methodology.
+              - Participated in code reviews and followed clean coding best practices.
+          - name: "Intern Software Engineer"
+            date: "August 2022 – January 2023"
+            content: |-
+              - Assisted in developing and testing software applications.
+              - Supported senior developers in coding, debugging, and documentation.
+              - Learned version control using Git and basic software development practices.
+
+      - company: "Private Tutor (Part-Time)"
+        jobs:
+          - name: "Academic Tutor"
+            date: "January 2016 – July 2022"
+            content: |-
+              - Provided home-based tutoring to secondary-level students (Grades 8–10).
+              - Taught Mathematics and Science and assisted with exam preparation.
+              - Supported students through regular assessments and personalized guidance.
+
+  education:
+    enable: true
+    items:
+      - title: "Bachelor of Science (BSc) in Computer Science & Engineering"
+        school:
+          name: "City University"
+          url: "https://cityuniversity.edu.bd"
+        date: "2017 – 2021"
+        GPA: "3.01 / 4.00"
+        content: |-
+          Specialized in Software Engineering.
+
+          Key Courses:
+          - Data Structures and Algorithms
+          - Database Management Systems
+          - Software Engineering
+          - Operating Systems
+          - Computer Networks
+          -	Programming fundamentals and object-oriented design
+
+      - title: "Higher Secondary School Certificate"
+        school:
+          name: "Government Bangla College"
+        date: "2014 – 2016"
+        GPA: "3.92 / 5.00"
+        
+        content: |-
+          Key Courses:
+          - Physics
+          - Chemistry
+          - Higher Mathematics 
+          - ICT
+
+      - title: "Secondary School Certificate"
+        school:
+          name: "Mirpur Bangla High School"
+        date: "2012 – 2014"
+        GPA: "4.56 / 5.00"
+        content: |-
+          Key Courses:
+          - Physics
+          - Chemistry
+          - Higher Mathematics 
+          - Computer Education        
+
+  projects:
+    enable: true
+    items:
+      - title: "Android-Based Tenant Information Management System"
+        content: "Final year academic project developed using Java and Firebase to manage tenant data, rent records, maintenance requests, and user communication."
+        image: /images/tenant.jpg
+        badges:
+          - Java
+          - Firebase
+          - Android
+        links:
+        - icon: fab fa-github
+          url: https://github.com/mdyousufh/TIMS
+
+      - title: "Wireless Current Transmission System"
+        content: "Course project based on electromagnetic induction demonstrating contactless power transmission using transmitter and receiver circuits."
+        image: /images/Wireless.jpg
+        badges:
+          - Electronics
+          - Embedded Systems
+
+  achievements:
+    enable: true
+    items:
+      - title: "ICPC Asia Dhaka Regional Preliminary Contest"
+        content: "Participant"
+      - title: "Intra-University Coding Contest"
+        content: "Participant"
+      - title: "University Mathematics Olympiad"
+        content: "Participant"
+
+  contact:
+    enable: true
+    content: "Feel free to contact me for academic or professional opportunities."
+    btnName: "Email Me"
+    btnLink: "mailto:yousuf.hossan.cs@gmail.com"
+
+  footer:
+    socialNetworks:
+      github: https://github.com/mdyousufh
+      linkedin: https://www.linkedin.com/in/mdyousufh/
