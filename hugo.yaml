@@ -1,4 +1,6 @@
 baseURL: "https://mdyousufh.github.io/personal-website/"
+relativeURLs: true
+canonifyURLs: false
 languageCode: "en-us"
 title: "Md Yousuf Hossan | Software Engineer"
 theme: hugo-profile
