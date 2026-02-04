@@ -31,7 +31,7 @@ markup:
 params:
   title: "Md Yousuf Hossan"
   description: "Junior Software Engineer | MSc in Computer Science Applicant"
-  #favicon: "/fav.png"
+  favicon: "/fav.png"
 
   navbar:
     brandName: "Md Yousuf Hossan"
